@@ -65,3 +65,71 @@ nav {
 
 }
 
+#introduction h1 {
+    font-size: 60px;
+}
+
+#introduction p {
+    margin: 10% auto;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#introduction a {
+    display: block;
+    width: 20%;
+    padding: 3% 8%;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #4c7ef3;
+    border-radius: 4px;
+}
+
+#introduction a:hover {
+    background-color: #26A69A;
+  }
+  
+  /* Store Page Rulesets */
+
+#showcase {
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.instrument {
+    width: 90%;
+    overflow: auto;
+
+}
+
+.image {
+    display: inline-block;  
+    vertical-align: middle;
+    width: 32%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
+.details {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    margin: -1% auto;
+    padding: 2%;
+}
+
+.name, .description, .price, del {
+    color: #000000;
+    text-align: left;
+}
+
+.description, .price {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+/*.description {
+    height: 100%;
+    font-size: 13px;
+    overflow: auto;
+}*/
